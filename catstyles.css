@@ -1,0 +1,102 @@
+.pink {
+  background-color: pink;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1{
+	font-size:60px;
+	color: #FFFFFF;
+}
+
+h2{
+	font-size:40px;
+	color: #FFFFFF;
+}
+
+body{
+   background-color: #d1b4db
+}
+
+p{
+  background-color: #f8eee7
+}
+
+.p2{
+  background-color: #f4decb
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #94618e;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #f4decb;
+}
+
+
+.active {
+ color: #94618e;
+  background-color: white;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+}
+.prev{
+ left: 0;
+ border-radius: 3px 0 0 3px;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.slideshow-container{
+	position:relative;
+	max-width:500px;
+}
