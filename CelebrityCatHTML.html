@@ -19,11 +19,19 @@ width: 98%"
 <title>Celebrity Cats</title>
 </head>
 
-<body>
+<body onLoad="showCelebrityCats()">
 
 <br>
 <h1>Celebritys in the cat world</h1>
-<p>This is a paragraph.</p>
+<p>The list of cats is</p>
+<ul id="celebrityCatList" class="celebrityCatList">
+
+</ul>
+<br>
+<input id = "catInput">
+<button onclick = "catAdd()">Add!</button>
+<button onclick = "catDel()">Delete!</button>
+
 
 </body>
 

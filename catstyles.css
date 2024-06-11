@@ -42,6 +42,7 @@ li {
   float: left;
 }
 
+
 li a {
   display: block;
   color: white;
@@ -54,6 +55,7 @@ li a:hover {
   background-color: #f4decb;
 }
 
+.celebrityCatList li { float:none}
 
 .active {
   color: #94618e;
