@@ -1,3 +1,5 @@
+// 1. Example Display or Hide Cat Images
+
 function catImageClick(id) {
 
 	var input = document.getElementById(id);
@@ -13,6 +15,7 @@ function catImageClick(id) {
 	}
 }
 
+// 2. Example Cat Sound on Click
 function catSoundOver(bigcat) {
 
 	var audio = document.getElementById('bigCatSound')
@@ -22,6 +25,7 @@ function catSoundOver(bigcat) {
 
 }
 
+// 3. Example using list and buttons to show the user can add and remove from the list which shows on the HTML page.
 const celebrityCats = ["Tardar Sauce (Grumpy Cat)", "Lil Bub", "A street cat named Bob", "Nala"]
 
 function showCelebrityCats() {
@@ -52,6 +56,7 @@ function catDel() {
 	showCelebrityCats();
 }
 
+// 4. Example of slide show
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -70,3 +75,41 @@ function showSlides(n) {
 	slides[slideIndex - 1].style.display = "block";
 }
 
+// 5. See inline canvas JavaScript.
+
+// 6. Cat Image Mover
+function CatMove() {
+    let id = null;
+    const elem = document.getElementById("animate");   
+    let pos = 0;
+    clearInterval(id);
+    id = setInterval(frame, 5);
+    function frame() {
+      if (pos == 350) {
+        clearInterval(id);
+      } else {
+        pos++; 
+        elem.style.top = pos + "px"; 
+        elem.style.left = pos + "px"; 
+      }
+    }
+  }
+
+  // 7. Cat Age Calculator
+  function CatCalculate() {
+	calcAge.textContent = parseFloat(inputAge.value) * 7;
+	calcAgeResult.style = "Display: inline"
+  };
+
+  
+  // 8. Cat Word Check
+  function CatCheck() {
+	if (inputCatWords.value.includes("cat")) {
+		calcCatWords.textContent = "Yes, you have entered a sentence with cat in!"
+		calcCatWordsImage.style = "Display: inline"
+	}
+	else {
+		calcCatWords.textContent = "NO, you have entered NOT sentence with cat in!"
+	}
+
+  };
