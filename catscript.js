@@ -22,7 +22,7 @@ function catSoundOver(bigcat) {
 
 }
 
-const celebrityCats = ["Trumpet", "Boofa"]
+const celebrityCats = ["Tardar Sauce (Grumpy Cat)", "Lil Bub", "A street cat named Bob", "Nala"]
 
 function showCelebrityCats() {
 
