@@ -85,7 +85,7 @@ function CatMove() {
     clearInterval(id);
     id = setInterval(frame, 5);
     function frame() {
-      if (pos == 350) {
+      if (pos == 250) {
         clearInterval(id);
       } else {
         pos++; 
